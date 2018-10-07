@@ -1,0 +1,48 @@
+<div fxLayout="column">
+  <div fxLayout="row" fxFlexAlign="center">
+    <div class="image_parent">
+      <div class="cover">
+        <img class="img1" src="../../../assets/image/Map_overview.png">
+      </div>
+      <div>
+        <img class="img2" src="../../../assets/image/Map_icon.png">
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="33" class="title">
+      Your Trip
+    </div>
+  </div>
+  <div class="trip-info">
+    <div fxFlexOffset="30" fxFlex="33"  fxLayout="row">
+      <div class="time">{{ time }}</div>&nbsp;
+      <div>
+        <div class="am-pm">{{ am_icon }}</div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="33" class="destination">
+      {{destination}}
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="20" fxFill>
+      <hr />
+    </div>
+  </div>
+  <div fxLayout="row" class="vibe">
+    <div  fxFlexOffset="30" fxFlex="33">
+      Current Vibe
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="33" class="vibe-info">
+      {{Vibe}}
+    </div>
+  </div>
+  <div fxLayout="row" fxFlexAlign="center">
+    <button mat-button>C H A N G E &nbsp; V E H I C L E &nbsp; V I B E</button>
+  </div>
+</div>

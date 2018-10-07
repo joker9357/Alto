@@ -1,0 +1,69 @@
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 50%;
+  background-color:#dddad6;
+  height: 1px;
+
+}
+#title {
+  font-size: larger;
+  font-family: OptimalTStd;
+}
+
+.trip-info{
+  font-family: PxGrotesk;
+}
+
+.time{
+  font-size: xx-large;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.am-pm{
+  position: relative;
+  top: 19px
+}
+
+.destination{
+  font-family: PxGrotesk-light;
+  font-size: medium;
+}
+
+.trip-detail {
+  font-family: PxGrotesk;
+}
+
+.icon{
+  height: 13px;
+  width: 13px;
+  position: relative;
+  top: 8px;
+}
+
+.edit_icon{
+  height: 13px;
+  width: 13px;
+  position: relative;
+  top: 30px;
+}
+
+.user_destination{
+  font-family: PxGrotesk;
+  font-size: large;
+}
+
+.address{
+  margin-top: 100px;
+}
+
+button{
+  border-color: #d9d8cb;
+  border-style: solid;
+  border-width: 2px;
+  font-family: PxGrotesk;
+  color: #d9d8cb;
+}

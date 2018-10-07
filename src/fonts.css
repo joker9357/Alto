@@ -1,0 +1,14 @@
+@font-face {
+  font-family: OptimalTStd;
+  src: url(assets/fonts/Linotype-OptimaLTStd.otf) format("opentype");
+}
+
+@font-face {
+  font-family: PxGrotesk;
+  src: url(assets/fonts/PxGrotesk-Bold.otf) format("opentype");
+}
+
+@font-face {
+  font-family: PxGrotesk-light;
+  src: url(assets/fonts/PxGrotesk-light.otf) format("opentype");
+}

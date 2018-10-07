@@ -1,0 +1,64 @@
+<div class="container" fxLayout="column" fxFill>
+  <div fxLayout="row">
+    <div  fxFlex="33">
+      <div fxLayout="column">
+        <div id="title">
+          <p>Your Trip</p>
+        </div>
+        <div class="trip-info">
+          <div fxLayout="row">
+            <div class="time">{{ time }}</div>&nbsp;
+            <div>
+              <div class="am-pm">{{ am_icon }}</div>
+            </div>
+          </div>
+          <div class="destination">
+            <p>{{ destination }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlex="33" fxLayoutAlign="center" fxLayout="column">
+      <hr />
+      <div>Estimated Fare:</div>
+      <div fxLayout="row">
+        <div class="trip-detail">{{LowestMoney | currency:'USD':'symbol'}} - {{HighestMoney | currency:'USD':'symbol'}}</div>
+        &nbsp;&nbsp;&nbsp;
+        <img matTooltip="Info about the action"
+             class="icon" src="../../../assets/image/Info_icon.png">
+      </div>
+    </div>
+    <div  fxFlex="33" fxLayoutAlign="center" fxLayout="column">
+      <hr />
+      <div>Passengers:</div>
+      <div class="trip-detail">{{LowestPeople}} - {{HighestPeople}}</div>
+    </div>
+    <div  fxFlex fxLayoutAlign="center" fxLayout="column">
+      <hr />
+      <div>Payment:</div>
+      <div class="trip-detail">{{Payment}}</div>
+    </div>
+  </div>
+  <div fxLayout="column" class="address">
+    <div>{{Address}}</div>
+    <div>{{City}}, {{State}}, {{Zipcode}}</div>
+  </div>
+  <hr/>
+  <div fxLayout="column" class="user_destination">
+    <div fxLayout="row">
+      <div fxFlex="25">{{User_Destination}}</div>
+    </div>
+    <div fxLayout="row">
+      <div fxFlex="25">{{Destination_City}}, {{Destination_State}}, {{Destination_Zipcode}}</div>
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div class="comment" fxFlex="25">{{User_Comment}}</div>&nbsp;&nbsp;&nbsp;
+    <img class="edit_icon" src="../../../assets/image/Edit_icon.png">
+  </div>
+  <div fxLayout="row" fxLayoutAlign="center">
+    <button mat-button>C A N C E L &nbsp;&nbsp; T R I P</button>
+  </div>
+</div>

@@ -1,0 +1,45 @@
+.crop {
+  width: 500px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.crop img {
+
+  margin: -75px 0 0 -180px;
+}
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 50%;
+  background-color:#dddad6;
+  height: 1px;
+
+}
+
+.title{
+  color: #ac826d;
+  font-family: PxGrotesk-light;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.name{
+  font-family: PxGrotesk;
+  font-size: xx-large;
+}
+.introduction{
+  font-size: small;
+  font-family: PxGrotesk-light;
+  margin-bottom: 30px;
+}
+
+button{
+  border-color: #d9d8cb;
+  border-style: solid;
+  border-width: 2px;
+  font-family: PxGrotesk;
+  color: #d9d8cb;
+}
+

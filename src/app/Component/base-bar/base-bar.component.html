@@ -1,0 +1,24 @@
+<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+  <mat-toolbar id="toolbar" color="transparent">
+    <mat-toolbar-row>
+      <div class="item item-1" fxFlex="33%" fxLayoutAlign="center">
+        <img src="{{ imagePath }}/Profile_icon.png">
+      </div>
+      <div class="item item-2" fxFlex="33%" fxLayoutAlign="center">
+        <div fxLayout="column">
+          <div class="destination">{{ destination }}</div>
+          <div class="ETA" fxFlexAlign="center">ETA: {{ estimate_time }}</div>
+        </div>
+      </div>
+      <div class="item item-3" fxFlex fxLayoutAlign="center">
+        <img src="{{ imagePath }}/Vibes_icon.png">
+      </div>
+    </mat-toolbar-row>
+  </mat-toolbar>
+</div>
+

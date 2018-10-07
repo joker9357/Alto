@@ -1,0 +1,75 @@
+.cover {
+  position: relative;
+}
+
+.cover:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-shadow:0 0 50px 30px #f7f3ef inset; }
+
+img{
+  display: block;
+  margin-bottom: 20px;
+}
+
+.image_parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.img2 {
+  position: absolute;
+  top: 330px;
+  right: 20px;
+}
+
+button{
+  background-color: #ac826d;
+  font-family: PxGrotesk-light;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.title{
+  color: #ac826d;
+  font-family: PxGrotesk-light;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.destination{
+  font-family: PxGrotesk-light;
+  font-size: small;
+}
+
+.vibe{
+  margin-top: 50px;
+}
+
+.vibe-info{
+  font-family: PxGrotesk;
+  font-size: small;
+}
+
+.am-pm{
+  position: relative;
+  top: 19px;
+  font-family: PxGrotesk;
+}
+
+.time{
+  font-size: xx-large;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: PxGrotesk;
+}

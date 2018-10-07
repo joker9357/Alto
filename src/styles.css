@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body {
+  background-color: #f7f3ef!important;
+}
+
+.carousel-indicators li{
+  background-color: #000000!important;
+  border-radius: 100px!important;
+  width: 10px!important;
+  height: 10px!important;
+  margin-right: 5px!important;
+  margin-left: 5px!important;
+}
+
+.carousel-indicators .active{
+  background-color: #acacac!important;
+}
+
+.carousel-indicators{
+  bottom: -40px!important;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: #000000!important;
+}

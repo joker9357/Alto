@@ -1,0 +1,40 @@
+<div fxLayout="column">
+  <div fxLayout="row" fxFlexAlign="center">
+    <div class="crop">
+      <img src="../../../assets/image/Vehicle_photo.png">
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="33" class="title">
+      Y O U R &nbsp; V E H I C L E
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="33" class="vehicle-name">
+      {{Vehicle}}
+    </div>
+  </div>
+  <div fxLayout="row">
+    <div  fxFlexOffset="30" fxFlex="20" class="vehicle-detail">
+      <div fxLayout="column">
+        <hr />
+        <div>Make/Model</div>
+        <div class="info">
+          {{Model}}
+        </div>
+      </div>
+    </div>
+    <div  fxFlex="20">
+      <div fxLayout="column">
+        <hr />
+        <div>Color</div>
+        <div class="info">
+          {{Color}}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row" fxFlexAlign="center">
+    <button mat-button>I D E N T I F Y &nbsp; V E H I C L E</button>
+  </div>
+</div>
