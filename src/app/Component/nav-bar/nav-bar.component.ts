@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {BasebarService} from '../../Service/basebar.service';
 
 @Component({
   selector: 'app-nav-bar',
@@ -7,9 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private baseBarService: BasebarService) { }
+
+  open() {
+    this.baseBarService.Open();
+  }
+
+  close() {
+    this.baseBarService.Close();
+  }
 
   ngOnInit() {
+
   }
 
 }

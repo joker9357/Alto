@@ -7,16 +7,16 @@
   <mat-toolbar id="toolbar" color="transparent">
     <mat-toolbar-row>
       <div class="item item-1" fxFlex="25%" fxLayoutAlign="center">
-        <button mat-button routerLink="/TripInfo">Trip Info</button>
+        <button mat-button routerLink="/TripInfo" (click)="close()">Trip Info</button>
       </div>
       <div class="item item-2" fxFlex="25%" fxLayoutAlign="center">
-        <button mat-button routerLink="/DriverInfo">Driver Info</button>
+        <button mat-button routerLink="/DriverInfo" (click)="close()">Driver Info</button>
       </div>
       <div class="item item-3" fxFlex="25%" fxLayoutAlign="center">
-        <button mat-button routerLink="/VehicleInfo">Vehicle Info</button>
+        <button mat-button routerLink="/VehicleInfo" (click)="close()">Vehicle Info</button>
       </div>
       <div class="item item-3" fxFlex fxLayoutAlign="center">
-        <button mat-button routerLink="/DestinationInfo">Destination Info</button>
+        <button mat-button routerLink="/DestinationInfo" (click)="open()">Destination Info</button>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>

@@ -12,7 +12,8 @@
       <div class="item item-2" fxFlex="33%" fxLayoutAlign="center">
         <div fxLayout="column">
           <div class="destination">{{ destination }}</div>
-          <div class="ETA" fxFlexAlign="center">ETA: {{ estimate_time }}</div>
+          <div *ngIf="!isOpen" class="ETA" fxFlexAlign="center">ETA: {{ estimate_time }}</div>
+          <div *ngIf="isOpen" class="ETA" fxFlexAlign="center">En route...</div>
         </div>
       </div>
       <div class="item item-3" fxFlex fxLayoutAlign="center">
