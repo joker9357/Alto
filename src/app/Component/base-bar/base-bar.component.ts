@@ -11,10 +11,10 @@ export class BaseBarComponent implements OnInit {
 
   constructor(private basebarService: BasebarService) { }
 
-  private imagePath = '../../../assets/image';
-  private isOpen = false;
-  private destination = 'DFW Int\'I Airport';
-  private estimate_time = '5:39 pm';
+  public imagePath = '../../../assets/image';
+  public isOpen = false;
+  public destination = 'DFW Int\'I Airport';
+  public estimate_time = '5:39 pm';
 
   ngOnInit() {
     this.basebarService.change.subscribe(isOpen => {
